@@ -1,0 +1,47 @@
+.register{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background:url("https://images.unsplash.com/photo-1488702953093-ac0820558db2?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    font-family: 'Playfair Display', serif;
+    align-items: center;
+}
+.registerTitle{
+    font-size: 50px;
+}
+.registerForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.registerForm>label{
+    margin: 10px 0;
+}
+.registerInput{
+    padding: 10px;
+    border: none;
+}
+.loginButton{
+    margin-top: 20px;
+    cursor: pointer; 
+    border: none;
+    color: white;
+    font-size: 23px;
+    border-radius: 50px;
+    background-color: black;
+}
+.registerButton{
+    position: absolute;
+    background-color: teal;
+    cursor: pointer;
+    font-size: 15px;
+    top: 60px;
+    right: 20px;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}

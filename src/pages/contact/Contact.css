@@ -1,0 +1,42 @@
+.Contact{
+    background:url("https://images.unsplash.com/photo-1488702953093-ac0820558db2?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Playfair Display', serif;
+    align-items: center;
+}
+.ContactTitle{
+    font-size: 50px;
+}
+.contactForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.contactForm>label{
+    margin: 10px 0;
+}
+.contactInput{
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+}
+.contactButton{
+    margin-top: 20px;
+    cursor: pointer; 
+    border: none;
+    color: white;
+    font-size: 23px;
+    border-radius: 50px;
+    background-color: black;
+}
+.linkedinLink{
+    text-decoration: none;
+    margin-top: -5px;
+    background-color: rgb(226, 196, 85);
+    color: black;
+}

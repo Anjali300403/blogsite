@@ -1,0 +1,45 @@
+.login{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background:url("https://images.unsplash.com/photo-1488965015547-e349b9b11707?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGJsdWV8ZW58MHx8MHx8fDA%3D");
+    background-size: cover;
+    font-family: 'Playfair Display', serif;
+    align-items: center;
+}
+.loginTitle{
+    font-size: 50px;
+}
+.loginForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.loginForm>label{
+    margin: 10px 0;
+}
+.loginInput{
+    padding: 10px;
+    border: none;
+}
+.LoginButton{
+    margin-top: 20px;
+    cursor: pointer; 
+    border: none;
+    color: white;
+    font-size: 23px;
+    border-radius: 50px;
+    background-color: black;
+}
+.registerButton{
+    position: absolute;
+    cursor: pointer;
+    top: 60px;
+    right: 20px;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}

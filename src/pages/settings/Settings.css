@@ -1,0 +1,76 @@
+.Settings{
+    display: flex;
+}
+.settingWrapper{
+    flex: 9;
+    padding: 20px;
+
+}
+.placeholderimg{
+        height: 80px;
+        width: 80px;
+        border-radius: 50px;
+        
+}
+.settingsTitle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Playfair Display', serif;
+}
+.settingsUpdateTitle{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: darkblue;
+}
+.settingsDeleteTitle{
+    color: red;
+    font-size: 12px;
+    cursor: pointer;
+}
+.settingsForm{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Gilda Display', serif;
+
+}
+.settingsPP{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+
+}
+.settingspfpicon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: lightblue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 39px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.settingsForm >label{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.settingsForm > input{
+    color: rgb(125, 120, 120);
+    margin: 10px 0;
+    height: 30px;
+    border:none;
+    border-bottom: 1px solid lightblue;
+}
+.settingsSubmit{
+    width: 150px;
+    align-self: center;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    background-color: lightblue;
+    font-size: 15px;
+    cursor: pointer;
+}

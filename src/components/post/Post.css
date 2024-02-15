@@ -1,0 +1,49 @@
+.Post{
+    width: 400px;
+    margin: 0px 25px 40px 70px;
+}
+.postImg{
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.postInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.postCat{
+    font-family: 'Playfair Display', serif;
+    font-size: 12px;
+    color: darkblue;
+    margin: 15px;
+    line-height: 20px;
+    cursor: pointer;
+}
+.postTitle{
+    font-family:'PT Serif', serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.postDate{
+    font-family: 'Lora', serif;
+    font-style: italic;
+    font-size: 13px;
+    color: darkblue;
+    margin-top: 5px;
+}
+.postDesc{
+    font-family: 'Playfair Display', serif;
+    font-size: 13px;
+    line-height: 25px;
+    margin-top: 15px;
+    overflow: hidden;
+    max-height: 120px; 
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
